@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\ElemType">
+      <UniqueIdentifier>{d02c4dbf-fae8-4747-a10e-65132d226f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Service">
+      <UniqueIdentifier>{388abc3b-7996-4ab2-9699-284b84b06cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Service\RLServiceJanus">
+      <UniqueIdentifier>{0283bfcb-1fec-4d30-af9b-5d511243eea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Service\RLServiceUDP">
+      <UniqueIdentifier>{d0d77536-8ec2-4fa8-9444-e79a52ac576d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Service">
+      <UniqueIdentifier>{28fed563-5a85-40b3-9c58-eb3011496a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Service\RLServiceJanus">
+      <UniqueIdentifier>{7eb0f32e-dcbb-436c-b99e-931a8546e922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Service\RLServiceUDP">
+      <UniqueIdentifier>{1e5daa16-2968-464b-8917-feaf6349ebfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base">
+      <UniqueIdentifier>{713a7b96-906b-4480-9ec1-796e47dab483}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\network_ars.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Service\RLServiceUDP\RLServiceUDPDelegate.cpp">
+      <Filter>src\Service\RLServiceUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Service\RLServiceJanus\RLServiceJanusCInterface.cpp">
+      <Filter>src\Service\RLServiceJanus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network_ars.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ElemType\CircleDataSet.hpp">
+      <Filter>include\ElemType</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUDP\RLServiceUDPbase.h">
+      <Filter>include\Service\RLServiceUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUDP\RLServiceUDPDelegate.h">
+      <Filter>include\Service\RLServiceUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUDP\RLServiceUDPNet.hpp">
+      <Filter>include\Service\RLServiceUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUDP\RLServiceUDPStateManager.hpp">
+      <Filter>include\Service\RLServiceUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUDP\RLServiceUDPUserManager.h">
+      <Filter>include\Service\RLServiceUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceJanus\RLServiceJanusCInterface.h">
+      <Filter>include\Service\RLServiceJanus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\RLbase.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\RLNetDelegate.hpp">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\RLStateManager.hpp">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service\RLServiceUserManager.hpp">
+      <Filter>include\Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
